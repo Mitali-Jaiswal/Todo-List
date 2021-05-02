@@ -1,0 +1,110 @@
+body{
+    font-family: sans-serif;
+}
+.main-container{
+  margin-top: -55px;
+    
+}
+.table{
+    margin: auto;
+}
+
+.left-float{
+    width: 25%;
+}
+
+.Heading{
+    font-family: sans-serif;
+    font-size: 28px;
+    
+}
+
+.right-float{
+    width: 25%;
+}
+
+
+.back{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    
+    
+}
+
+.back i{
+    margin-top: 0.8rem;
+  margin-left: 3.5rem;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(223, 54, 54);
+}
+
+
+.flex-card{
+    width: 25%;
+    height: 350px;
+    background-color: white;
+    border: 1.5px solid #f05945;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px 4px lightgrey;
+    margin: auto;
+    
+    
+}
+input.pending-task{
+    height: 18px;
+    width: 18px;
+
+}
+
+.inner-div label{
+    color: black;
+}
+
+.inner-div{
+    margin-left: 80px;
+    margin-bottom: 40px;
+    color: #f05945;
+    letter-spacing: 0.6px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+#para-trip{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.para2{
+    text-decoration-line: line-through ;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: red;
+    margin-top: 40px;
+}
+
+.flex-card{
+    position: relative;
+}
+
+.flex-card i
+{
+    margin-top: 0.8rem;
+    margin-left: 3.5rem;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(223, 54, 54);
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+}

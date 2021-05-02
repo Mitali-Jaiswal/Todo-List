@@ -1,0 +1,111 @@
+body{
+    font-family: sans-serif;
+    
+}
+
+
+.main-container{
+    width: 70%;
+    margin: auto;
+   margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.Heading-Container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Head-task{
+    display: inline;
+    
+    font-family: sans-serif;
+    font-size: 52px;
+}
+
+#Head-list{
+    display: inline;
+    font-size: 52px;
+    font-weight: 100;
+    color: grey;
+}
+.add-list-container{
+    
+}
+
+.para1{
+    margin-right: 80px;
+    font-size: 20px;
+    color: grey;
+
+}
+
+.para1 i{
+    margin-top: 0.8rem;
+  margin-left: 3.5rem;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(223, 54, 54);
+}
+
+.flex-card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+    width: auto;
+}
+
+.flex-card{
+        width: 25%;
+        height: 350px;
+        background-color: white;
+        border: 1.5px solid lightsalmon;
+        border-radius: 10px;
+        box-shadow: 4px 6px 10px 4px lightgrey;
+        font-weight: bold;
+
+        
+}
+
+.inner-div{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    color: #f05945;
+    letter-spacing: 0.6px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.para2{
+    text-decoration-line: line-through ;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+
+    text-align: right;
+    letter-spacing: 0.6px;
+    margin-right: 20px;
+    font-size: larger;
+    color: red;
+
+
+}
+.checkbox-container{
+    margin-left: 10px;
+}
+input.checkbox{
+    height: 18px;
+    width: 18px;
+
+}
+
+.checkbox-container label{
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0.6px;
+ 
+}
